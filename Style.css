@@ -1,0 +1,1485 @@
+body{
+    background: linear-gradient(90deg, #381F08 0%, #392009 100%);
+}
+body::-webkit-scrollbar{
+    width: 15px;
+}
+body::-webkit-scrollbar-thumb{
+    background-image: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg);
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-track{
+    background-color:  #381F08;
+}
+header{
+    display: flex;
+    background: linear-gradient(90deg, #381F08 0%, #392009 100%);
+    width: 100%;
+    height: 135px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.main_nav{
+    text-align: center;
+    font-family: "Mystery Quest";
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+background: linear-gradient(90deg, #B27D32 0%, #C49234 22.48%, #996734 37.52%, #C69436 73.9%, #855A24 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.sub_nav{
+    text-align: center;
+    font-family: "Mystery Quest";
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray -38.19px -27.945px / 175.829% 226.514% no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-left: 150px;
+text-decoration: none;
+padding: 5px;
+}
+a:hover{
+    text-decoration: 1px solid white;
+}
+.drop_char{
+position: relative;
+display: inline-block;
+}
+.drop_weap{
+    position: relative;
+display: inline-block;
+}
+.drop_weap_cont{
+    display: none;
+    position: absolute;
+    background-color: #381F08;
+    border: 4px solid #A26E33;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 120px;
+}
+.drop_char_cont{
+    display: none;
+    position: absolute;
+    background-color: #381F08;
+    border: 4px solid #A26E33;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 140px;
+}
+.drop_link{
+    text-align: center;
+font-family: "Mystery Quest";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 167px;
+height: 49px;
+flex-shrink: 0;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray 50% / cover no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding: 12px 16px;
+display: block;
+}
+.drop_link:hover{
+    text-decoration-line: underline #FFF;
+}
+.drop_char:hover .drop_char_cont{
+    display: block;
+}
+.drop_weap:hover .drop_weap_cont{
+    display: block;
+}
+.line{
+    width: 100%;
+height: 5px;
+background-image: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg);
+}
+.container_start{
+    display: flex;
+    justify-content: center;
+}
+.start_img{
+    background-image: url(Img/Castle.png);
+    width: 100%;
+    height: 38.0625rem;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start_main{
+    color: #FFF;
+text-align: center;
+font-family: "Mystery Quest";
+font-size: 8rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.start_sub{
+    color: #FFF;
+    text-align: center;
+    font-family: "Mystery Quest";
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+width: 698px;
+height: 110px;
+flex-shrink: 0;
+margin-top: 0;
+}
+.text_container_start{
+    display: flex;
+    flex-direction: column;
+}
+.what_container{
+    display: flex;
+    margin-top: -10rem;
+    width: 36.125rem;
+    height: 37.125rem;
+    padding-top: 9rem;
+    flex-direction: row;
+    justify-content: center;
+}
+.text_what_container{
+    display: flex;
+    flex-direction: column;
+    width: 578px;
+height: 764px;
+flex-shrink: 0;
+justify-content: flex-start;
+}
+.what_text_main{
+    font-family: "Mystery Quest";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray -38.19px -27.945px / 175.829% 226.514% no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.what_text_sub{
+    font-family: "Mystery Quest";
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray -38.19px -27.945px / 175.829% 226.514% no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 0px;
+}
+.img_what_container{
+    display: flex;
+    width: 28.78531rem;
+    height: 35.875rem;
+    flex-shrink: 0;
+flex-direction: column;
+margin-top: 5rem;
+margin-left: 15.625rem;
+justify-content: space-around;
+}
+.dragon{
+    width: 28.78531rem;
+    height: 16.20506rem;
+    flex-shrink: 0;
+border: 4px url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg);
+background: url(Img/Dragon.png) lightgray 50% / cover no-repeat;
+transition: 0.5s;
+display: block;
+}
+.wizards{
+    width: 28.78531rem;
+    height: 16.20506rem;
+    flex-shrink: 0;
+    border: 4px url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg);
+    background: url(Img/Mag_Batlle.png) lightgray 50% / cover no-repeat;
+    transition: 0.5s;
+    display: block;
+    overflow: hidden;
+}
+.line1{
+    width: 100%;
+    height: 5px;
+    background-image: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg);
+    margin-top: 7rem;
+}
+.dragon:hover{
+    transform: scale(1.2);
+}
+.wizards:hover{
+    transform: scale(1.2);
+}
+.intro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.intro_img{
+    display: flex;
+    width: 1251px;
+    height: 303px;
+    flex-shrink: 0;
+background-image: url(Img/Introduction.png);
+justify-content: center;
+}
+.intro_txt{
+    margin-top: 3.125rem;
+    color: #392009;
+text-align: center;
+font-family: "Mystery Quest";
+font-size: 5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 852px;
+height: 150px;
+flex-shrink: 0;
+}
+.intro_vid{
+    width: 78.1875rem;
+height: 43.2790625rem;
+flex-shrink: 0;
+background-color: black;
+margin-top: 6.25rem;
+}
+.pattern1{
+    display: flex;
+    background-image: url(Img/Pattern.png);
+    width: 103.68px;
+    height: 950px;
+}
+.pattern2{
+    display: flex;
+    background-image: url(Img/Pattern.png);
+    width: 103.68px;
+    height: 950px;
+}
+.pattern_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper {
+    display: flex;
+    justify-self: center;
+    width: 76.1875rem;
+    height: 47.5rem;
+    flex-shrink: 0;
+	margin: 100px auto 0;
+	position: relative;
+}
+.slider {
+	background-color: #ddd;
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+}
+.wrapper > input {
+	display: none;
+}
+.slides {
+	height: inherit;
+	position: absolute;
+	width: inherit;
+}
+.slide1 { background-image: url(Img/Melle.png); }
+.slide2 { background-image: url(Img/Ranged.png); }
+.slide3 { background-image: url(Img/Shield.png); }
+.slide4 { background-image: url(Img/Armor.png); }
+
+.wrapper .controls {
+	left: 50%;
+	margin-left: -98px;
+	position: absolute;
+}
+
+.wrapper label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper label:after {
+	border: 2px solid #A57132;
+	content: " ";
+	display: block;
+	height: 12px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 12px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: background ease-in-out .5s;
+	-moz-transition: background ease-in-out .5s;
+	-o-transition: background ease-in-out .5s;
+	transition: background ease-in-out .5s;
+}
+.wrapper label:hover, 
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3),
+#slide4:checked ~ .controls label:nth-of-type(4) {
+	background: #A57132;
+}
+
+.slides {
+	height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 0;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+}
+
+#slide1:checked ~ .slider > .slide1,
+#slide2:checked ~ .slider > .slide2,
+#slide3:checked ~ .slider > .slide3,
+#slide4:checked ~ .slider > .slide4 {
+	opacity: 1;
+	z-index: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+.controls{
+    display: flex;
+    margin-top: 800px;
+    justify-self: center;
+}
+.gold_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg);
+    width: 100%;
+    height: 9em;
+    margin-top: -1.40rem;
+}
+.gold_main_txt{
+    color: #45270C;
+text-align: center;
+font-family: "Mystery Quest";
+font-size: 6rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pop_txt{
+    font-family: "Mystery Quest";
+font-size: 4rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray 50% / cover no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.pop_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90rem;
+}
+.OCS{
+    width: 19.1875rem;
+height: 25.5rem;
+flex-shrink: 0;
+background-image: url(Img/Orc.png);
+margin-right: 15rem;
+transition: 0.5s;
+}
+.OCS:hover{
+    transform: scale(1.2);
+}
+.ELS{
+    width: 19.1875rem;
+height: 25.5rem;
+flex-shrink: 0;
+background-image: url(Img/Elf.png);
+transition: 0.5s;
+}
+.ELS:hover{
+    transform: scale(1.2);
+}
+.DWS{
+    width: 19.1875rem;
+height: 25.5rem;
+flex-shrink: 0;
+background-image: url(Img/Dwarf.png);
+margin-left: 15rem;
+transition: 0.5s;
+}
+.DWS:hover{
+    transform: scale(1.2);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7rem;
+}
+.icon_group{
+    display: flex;
+flex-shrink: 0;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: end;
+}
+.poison_icon{
+    width: 5.25rem;
+height: 7.4405rem;
+flex-shrink: 0;
+background-image: url(Img/Poison.png);
+}
+.book_icon{
+    width: 10.875rem;
+height: 10.91681rem;
+flex-shrink: 0;
+background-image: url(Img/Book.png);
+}
+.candel_icon{
+    width: 8rem;
+height: 12.31544rem;
+flex-shrink: 0;
+background-image: url(Img/Candel.png);
+}
+.lamp_icon{
+    width: 14.4rem;
+height: 9.1635rem;
+flex-shrink: 0;
+background-image: url(Img/Lamp.png);
+}
+.footer_info{
+    display: flex;
+    width: 100%;
+    height: 12.3125rem;
+    background: #251506;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_info_txt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer_txt{
+    color: #46392E;
+font-family: "Mystery Quest";
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.mail{
+    color: #46392E;
+font-family: "Mystery Quest";
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 15rem;
+}
+.line_footer{
+    display: flex;
+    width: 77.25rem;
+height: 0.3125rem;
+background: #46392E;
+justify-self: center;
+border-radius: 2rem;
+}
+.footer_icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.inst_icon{
+    width: 3.5rem;
+height: 3.41519rem;
+flex-shrink: 0;
+background-image: url(Img/Inst.png);
+margin-right: 30rem;
+transition: 0.5s;
+}
+.inst_icon:hover{
+    transform: scale(1.2);
+}
+.tik_icon{
+    width: 3rem;
+height: 3.41531rem;
+flex-shrink: 0;
+background-image: url(Img/Tik.png);
+transition: 0.5s;
+}
+.tik_icon:hover{
+    transform: scale(1.2);
+}
+.vk_icon{
+    width: 3.5rem;
+height: 3.41531rem;
+flex-shrink: 0;
+background-image: url(Img/Vk.png);
+margin-left: 30rem;
+transition: 0.5s;
+}
+.vk_icon:hover{
+    transform: scale(1.2);
+}
+.main_char{
+    display: flex;
+    width: 100%;
+height: 9rem;
+flex-shrink: 0;
+justify-content: center;
+align-items: center;
+color: #45270C;
+text-align: center;
+font-family: "Mystery Quest";
+font-size: 6rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-image: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg);
+}
+.human{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_human{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.human_icon1{
+    width: 5.22013rem;
+    height: 5.22013rem;
+    flex-shrink: 0;
+    background-image: url(Img/Swords.png);
+    margin-right: 4rem;
+}
+.human_heading{
+    text-align: center;
+font-family: "Mystery Quest";
+font-size: 6rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray -138.706px -60.523px / 175.829% 226.514% no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.human_icon2{
+    width: 5.22013rem;
+    height: 5.22013rem;
+    flex-shrink: 0;
+    background-image: url(Img/Swords.png);
+    margin-left: 4rem;
+}
+.human_choose{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.human_choose1{
+    width: 19.25rem;
+height: 28.5rem;
+flex-shrink: 0;
+background-image: url(Img/Peasant.png);
+margin-right: 20rem;
+transition: 0.5s;
+}
+.human_choose1:hover{
+    transform: scale(1.2);
+}
+.human_choose2{
+    width: 19.25rem;
+height: 28.5rem;
+flex-shrink: 0;
+background-image: url(Img/Guardsman.png);
+transition: 0.5s;
+}
+.human_choose2:hover{
+    transform: scale(1.2);
+}
+.human_choose3{
+    width: 19.25rem;
+height: 28.5rem;
+flex-shrink: 0;
+background-image: url(Img/Sorc.png);
+margin-left: 20rem;
+transition: 0.5s;
+}
+.human_choose3:hover{
+    transform: scale(1.2);
+}
+.human_txt{
+    margin-right: 4rem;
+    margin-left: 4rem;
+    font-family: "Mystery Quest";
+font-size: 3rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray 50% / cover no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.elves{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_elves{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.elves_icon1{
+    width: 5.22013rem;
+    height: 5.22013rem;
+    flex-shrink: 0;
+    background-image: url(Img/Bow.png);
+    margin-right: 4rem;
+}
+.elves_heading{
+    text-align: center;
+font-family: "Mystery Quest";
+font-size: 6rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray -138.706px -60.523px / 175.829% 226.514% no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.elves_icon2{
+    width: 5.22013rem;
+    height: 5.22013rem;
+    flex-shrink: 0;
+    background-image: url(Img/BowL.png);
+    margin-left: 4rem;
+}
+.elves_choose{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.elves_choose1{
+    width: 19.25rem;
+height: 28.5rem;
+flex-shrink: 0;
+background-image: url(Img/Fai.png);
+margin-right: 20rem;
+transition: 0.5s;
+}
+.elves_choose1:hover{
+    transform: scale(1.2);
+}
+.elves_choose2{
+    width: 19.25rem;
+height: 28.5rem;
+flex-shrink: 0;
+background-image: url(Img/Druid.png);
+transition: 0.5s;
+}
+.elves_choose2:hover{
+    transform: scale(1.2);
+}
+.elves_choose3{
+    width: 19.25rem;
+height: 28.5rem;
+flex-shrink: 0;
+background-image: url(Img/Ent.png);
+margin-left: 20rem;
+transition: 0.5s;
+}
+.elves_choose3:hover{
+    transform: scale(1.2);
+}
+.elves_txt{
+    margin-right: 4rem;
+    margin-left: 4rem;
+    font-family: "Mystery Quest";
+font-size: 3rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray 50% / cover no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.dw{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_dw{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.dw_icon1{
+    width: 5.22013rem;
+    height: 5.22013rem;
+    flex-shrink: 0;
+    background-image: url(Img/Picaxe.png);
+    margin-right: 4rem;
+}
+.dw_heading{
+    text-align: center;
+font-family: "Mystery Quest";
+font-size: 6rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray -138.706px -60.523px / 175.829% 226.514% no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.dw_icon2{
+    width: 5.22013rem;
+    height: 5.22013rem;
+    flex-shrink: 0;
+    background-image: url(Img/PicaxrL.png);
+    margin-left: 4rem;
+}
+.dw_choose{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.dw_choose1{
+    width: 19.25rem;
+height: 28.5rem;
+flex-shrink: 0;
+background-image: url(Img/Miner.png);
+margin-right: 20rem;
+transition: 0.5s;
+}
+.dw_choose1:hover{
+    transform: scale(1.2);
+}
+.dw_choose2{
+    width: 19.25rem;
+height: 28.5rem;
+flex-shrink: 0;
+background-image: url(Img/Alch.png);
+transition: 0.5s;
+}
+.dw_choose2:hover{
+    transform: scale(1.2);
+}
+.dw_choose3{
+    width: 19.25rem;
+height: 28.5rem;
+flex-shrink: 0;
+background-image: url(Img/Giant.png);
+margin-left: 20rem;
+transition: 0.5s;
+}
+.dw_choose3:hover{
+    transform: scale(1.2);
+}
+.dw_txt{
+    margin-right: 4rem;
+    margin-left: 4rem;
+    font-family: "Mystery Quest";
+font-size: 3rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray 50% / cover no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.or{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_or{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.or_icon1{
+    width: 5.22013rem;
+    height: 5.22013rem;
+    flex-shrink: 0;
+    background-image: url(Img/ShieldO.png);
+    margin-right: 4rem;
+}
+.or_heading{
+    text-align: center;
+font-family: "Mystery Quest";
+font-size: 6rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray -138.706px -60.523px / 175.829% 226.514% no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.or_icon2{
+    width: 5.22013rem;
+    height: 5.22013rem;
+    flex-shrink: 0;
+    background-image: url(Img/ShieldO.png);
+    margin-left: 4rem;
+}
+.or_choose{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.or_choose1{
+    width: 19.25rem;
+height: 28.5rem;
+flex-shrink: 0;
+background-image: url(Img/Goblins.png);
+margin-right: 20rem;
+transition: 0.5s;
+}
+.or_choose1:hover{
+    transform: scale(1.2);
+}
+.or_choose2{
+    width: 19.25rem;
+height: 28.5rem;
+flex-shrink: 0;
+background-image: url(Img/Wizards.png);
+transition: 0.5s;
+}
+.or_choose2:hover{
+    transform: scale(1.2);
+}
+.or_choose3{
+    width: 19.25rem;
+height: 28.5rem;
+flex-shrink: 0;
+background-image: url(Img/Ogers.png);
+margin-left: 20rem;
+transition: 0.5s;
+}
+.or_choose3:hover{
+    transform: scale(1.2);
+}
+.or_txt{
+    margin-right: 4rem;
+    margin-left: 4rem;
+    font-family: "Mystery Quest";
+font-size: 3rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray 50% / cover no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.un{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_un{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.un_icon1{
+    width: 5.22013rem;
+    height: 5.22013rem;
+    flex-shrink: 0;
+    background-image: url(Img/Skull.png);
+    margin-right: 4rem;
+}
+.un_heading{
+    text-align: center;
+font-family: "Mystery Quest";
+font-size: 6rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray -138.706px -60.523px / 175.829% 226.514% no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.un_icon2{
+    width: 5.22013rem;
+    height: 5.22013rem;
+    flex-shrink: 0;
+    background-image: url(Img/Skull.png);
+    margin-left: 4rem;
+}
+.un_choose{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.un_choose1{
+    width: 19.25rem;
+height: 28.5rem;
+flex-shrink: 0;
+background-image: url(Img/Skeleton.png);
+margin-right: 20rem;
+transition: 0.5s;
+}
+.un_choose1:hover{
+    transform: scale(1.2);
+}
+.un_choose2{
+    width: 19.25rem;
+height: 28.5rem;
+flex-shrink: 0;
+background-image: url(Img/Vamp.png);
+transition: 0.5s;
+}
+.un_choose2:hover{
+    transform: scale(1.2);
+}
+.un_choose3{
+    width: 19.25rem;
+height: 28.5rem;
+flex-shrink: 0;
+background-image: url(Img/Necr.png);
+margin-left: 20rem;
+transition: 0.5s;
+}
+.un_choose3:hover{
+    transform: scale(1.2);
+}
+.un_txt{
+    margin-right: 4rem;
+    margin-left: 4rem;
+    font-family: "Mystery Quest";
+font-size: 3rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray 50% / cover no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.de{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_de{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.de_icon1{
+    width: 5.22013rem;
+    height: 5.22013rem;
+    flex-shrink: 0;
+    background-image: url(Img/Wing.png);
+    margin-right: 4rem;
+}
+.de_heading{
+    text-align: center;
+font-family: "Mystery Quest";
+font-size: 6rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray -138.706px -60.523px / 175.829% 226.514% no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.de_icon2{
+    width: 5.22013rem;
+    height: 5.22013rem;
+    flex-shrink: 0;
+    background-image: url(Img/WingL.png);
+    margin-left: 4rem;
+}
+.de_choose{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.de_choose1{
+    width: 19.25rem;
+height: 28.5rem;
+flex-shrink: 0;
+background-image: url(Img/Elem.png);
+margin-right: 20rem;
+transition: 0.5s;
+}
+.de_choose1:hover{
+    transform: scale(1.2);
+}
+.de_choose2{
+    width: 19.25rem;
+height: 28.5rem;
+flex-shrink: 0;
+background-image: url(Img/Cerber.png);
+transition: 0.5s;
+}
+.de_choose2:hover{
+    transform: scale(1.2);
+}
+.de_choose3{
+    width: 19.25rem;
+height: 28.5rem;
+flex-shrink: 0;
+background-image: url(Img/Archpng.png);
+margin-left: 20rem;
+transition: 0.5s;
+}
+.de_choose3:hover{
+    transform: scale(1.2);
+}
+.de_txt{
+    margin-right: 4rem;
+    margin-left: 4rem;
+    font-family: "Mystery Quest";
+font-size: 3rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray 50% / cover no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.container_char{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+.gold_block{
+    display: flex;
+    width: 100%;
+    height: 9rem;
+    background-image: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg);
+justify-content: center;
+align-items: center;
+}
+.gold_block_txt{
+    color: #45270C;
+text-align: center;
+font-family: "Mystery Quest";
+font-size: 6rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.cont_char_inf{
+    display: flex;
+    flex-direction: column;
+}
+.char_info1{
+    font-family: "Mystery Quest";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray 50% / cover no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+width: 48.0625rem;
+height: auto;
+flex-shrink: 0;
+}
+.char_info2{
+    margin-top: 0rem;
+    font-family: "Mystery Quest";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray 50% / cover no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+width: 78.5rem;
+height: auto;
+flex-shrink: 0;
+}
+.peas_img{
+    position: absolute;
+    width: 27.8125rem;
+height: 36.625rem;
+flex-shrink: 0;
+margin-top: 3.5rem;
+margin-left: 50rem;
+background-image: url(Img/PeasantI.png);
+transition: 0.5s;
+}
+.peas_img:hover{
+    transform: scale(0.9);
+}
+.guard_img{
+    position: absolute;
+    width: 27.8125rem;
+height: 36.625rem;
+flex-shrink: 0;
+margin-top: 3.5rem;
+margin-left: 50rem;
+background-image: url(Img/GuardsmanI.png);
+transition: 0.5s;
+}
+.guard_img:hover{
+    transform: scale(0.9);
+}
+.sorc_img{
+    position: absolute;
+    width: 27.8125rem;
+height: 36.625rem;
+flex-shrink: 0;
+margin-top: 3.5rem;
+margin-left: 50rem;
+background-image: url(Img/SorcI.png);
+transition: 0.5s;
+}
+.sorc_img:hover{
+    transform: scale(0.9);
+}
+.fay_img{
+    position: absolute;
+    width: 27.8125rem;
+height: 36.625rem;
+flex-shrink: 0;
+margin-top: 3.5rem;
+margin-left: 50rem;
+background-image: url(Img/FaiI.png);
+transition: 0.5s;
+}
+.fay_img:hover{
+    transform: scale(0.9);
+}
+.druid_img{
+    position: absolute;
+    width: 27.8125rem;
+height: 36.625rem;
+flex-shrink: 0;
+margin-top: 3.5rem;
+margin-left: 50rem;
+background-image: url(Img/ElfI.png);
+transition: 0.5s;
+}
+.druid_img:hover{
+    transform: scale(0.9);
+}
+.ent_img{
+    position: absolute;
+    width: 27.8125rem;
+height: 36.625rem;
+flex-shrink: 0;
+margin-top: 3.5rem;
+margin-left: 50rem;
+background-image: url(Img/EntI.png);
+transition: 0.5s;
+}
+.ent_img:hover{
+    transform: scale(0.9);
+}
+.miner_img{
+    position: absolute;
+    width: 27.8125rem;
+height: 36.625rem;
+flex-shrink: 0;
+margin-top: 3.5rem;
+margin-left: 50rem;
+background-image: url(Img/MinerI.png);
+transition: 0.5s;
+}
+.miner_img:hover{
+    transform: scale(0.9);
+}
+.alch_img{
+    position: absolute;
+    width: 27.8125rem;
+height: 36.625rem;
+flex-shrink: 0;
+margin-top: 3.5rem;
+margin-left: 50rem;
+background-image: url(Img/AlchI.png);
+transition: 0.5s;
+}
+.alch_img:hover{
+    transform: scale(0.9);
+}
+.giant_img{
+    position: absolute;
+    width: 27.8125rem;
+height: 36.625rem;
+flex-shrink: 0;
+margin-top: 3.5rem;
+margin-left: 50rem;
+background-image: url(Img/GiantI.png);
+transition: 0.5s;
+}
+.giant_img:hover{
+    transform: scale(0.9);
+}
+.gobl_img{
+    position: absolute;
+    width: 27.8125rem;
+height: 36.625rem;
+flex-shrink: 0;
+margin-top: 3.5rem;
+margin-left: 50rem;
+background-image: url(Img/GoblinI.png);
+transition: 0.5s;
+}
+.gobl_img:hover{
+    transform: scale(0.9);
+}
+.wiz_img{
+    position: absolute;
+    width: 27.8125rem;
+height: 36.625rem;
+flex-shrink: 0;
+margin-top: 3.5rem;
+margin-left: 50rem;
+background-image: url(Img/WizardI.png);
+transition: 0.5s;
+}
+.wiz_img:hover{
+    transform: scale(0.9);
+}
+.ogre_img{
+    position: absolute;
+    width: 27.8125rem;
+height: 36.625rem;
+flex-shrink: 0;
+margin-top: 3.5rem;
+margin-left: 50rem;
+background-image: url(Img/OgreI.png);
+transition: 0.5s;
+}
+.ogre_img:hover{
+    transform: scale(0.9);
+}
+.skel_img{
+    position: absolute;
+    width: 27.8125rem;
+height: 36.625rem;
+flex-shrink: 0;
+margin-top: 3.5rem;
+margin-left: 50rem;
+background-image: url(Img/SkeletI.png);
+transition: 0.5s;
+}
+.skel_img:hover{
+    transform: scale(0.9);
+}
+.vamp_img{
+    position: absolute;
+    width: 27.8125rem;
+height: 36.625rem;
+flex-shrink: 0;
+margin-top: 3.5rem;
+margin-left: 50rem;
+background-image: url(Img/VampireI.png);
+transition: 0.5s;
+}
+.vamp_img:hover{
+    transform: scale(0.9);
+}
+.necro_img{
+    position: absolute;
+    width: 27.8125rem;
+height: 36.625rem;
+flex-shrink: 0;
+margin-top: 3.5rem;
+margin-left: 50rem;
+background-image: url(Img/NecroI.png);
+transition: 0.5s;
+}
+.necro_img:hover{
+    transform: scale(0.9);
+}
+.elem_img{
+    position: absolute;
+    width: 27.8125rem;
+height: 36.625rem;
+flex-shrink: 0;
+margin-top: 3.5rem;
+margin-left: 50rem;
+background-image: url(Img/ElemI.png);
+transition: 0.5s;
+}
+.elem_img:hover{
+    transform: scale(0.9);
+}
+.cerb_img{
+    position: absolute;
+    width: 27.8125rem;
+height: 36.625rem;
+flex-shrink: 0;
+margin-top: 3.5rem;
+margin-left: 50rem;
+background-image: url(Img/CerberI.png);
+transition: 0.5s;
+}
+.cerb_img:hover{
+    transform: scale(0.9);
+}
+.arch_img{
+    position: absolute;
+    width: 27.8125rem;
+height: 36.625rem;
+flex-shrink: 0;
+margin-top: 3.5rem;
+margin-left: 50rem;
+background-image: url(Img/ArchI.png);
+transition: 0.5s;
+}
+.arch_img:hover{
+    transform: scale(0.9);
+}
+.cont_weap_txt{
+    display: flex;
+    flex-direction: column;
+    font-family: "Mystery Quest";
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray 50% / cover no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+justify-self: center;
+padding-left: 15rem;
+padding-right: 15rem;
+margin-top: 7rem;
+}
+.weap_cont_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.weap1{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.weap2{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    width: 77rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.weap_img1{
+    width: 20.0625rem;
+height: 24rem;
+flex-shrink: 0;
+transition: 0.5s;
+}
+.weap_img2{
+    width: 20.0625rem;
+height: 24rem;
+flex-shrink: 0;
+transition: 0.5s;
+}
+.weap_img1:hover{
+    transform: rotateZ(-15deg);
+}
+.weap_img2:hover{
+    transform: rotateZ(15deg);
+}
+.weap_txt{
+    font-family: "Mystery Quest";
+font-size: 3rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: url(Img/gold-texture-background-1mb0q22gjhi1w1k0.jpg) lightgray 50% / cover no-repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+width: 53.25rem;
+padding-left: 5rem;
+padding-right: 5rem;
+transition: 0.5s;
+}
+.weap_txt:hover{
+    transform: scale(1.07);
+}
